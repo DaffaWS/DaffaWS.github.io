@@ -1,0 +1,94 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Warna dasar latar */
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* NAVIGATION BAR */
+.tabel-navbar-atas {
+    background-color: #444;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.ul-navbar a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.ul-navbar a:hover {
+    color: #00aced;
+    background-color: #333;
+}
+
+/* CONTENT 1 */
+.tabel-conten {
+    background-color: #0077b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: white;
+    text-align: center;
+}
+
+.img-conten {
+    width: 30%;
+    height: auto;
+}
+
+/* FOOTER */
+.tabel-footer {
+    height: 10vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Gulir ke atas */
+.tabel-gulir {
+    background-color: #555;
+    text-align: center;
+    padding: 10px;
+}
+
+.gulir-atas {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.gulir-atas:hover {
+    background-color: #00aced;
+    color: white;
+}
